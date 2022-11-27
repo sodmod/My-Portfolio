@@ -1,0 +1,59 @@
+.navbar {
+  padding: 0px;
+  margin: 0%;
+  min-height: fit-content;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+.body {
+  min-height: 6em;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  color: white;
+  padding: 0%;
+  margin: 0%;
+  size: 1.5em;
+}
+
+.my_logo {
+  min-width: 30%;
+  height: auto;
+}
+.details {
+  display: flex;
+  max-width: 70%;
+  align-items: flex-end;
+}
+.list {
+  display: flex;
+  max-width: 100%;
+  text-align: center;
+  margin: auto;
+  word-wrap: break-word;
+}
+
+.list li {
+  list-style: none;
+  margin: 0.5em;
+}
+
+@media (max-width: 900px) {
+  .body {
+    width: 100%;
+  }
+
+  .list {
+    width: 100%;
+  }
+}

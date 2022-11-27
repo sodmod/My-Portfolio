@@ -1,0 +1,12 @@
+.card {
+  border-radius: 40px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* @media (max-width: 670) {
+  .card {
+    max-width: fit-content;
+    background-color: blue;
+    border-color: bisque;
+  }
+} */

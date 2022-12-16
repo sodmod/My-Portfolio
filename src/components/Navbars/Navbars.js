@@ -1,28 +1,48 @@
-import React from "react";
+import React, { useState } from "react";
+import Card from "../Cards/Card";
 
 import styles from "./Navbars.module.css";
 
 const Navbar = () => {
+  const [showMobile, setShowMobile] = useState(null);
+
+  const toggle = () => {
+    setShowMobile((preState) => !preState);
+  };
+
   return (
     <>
-      <div className={`${styles.body}`}>
-        <div className={`${styles.navbar}`}>
-          <div className={`${styles.my_logo}`}>
-            <h1>My Logo will be here</h1>
-          </div>
-          <div className={`${styles.details}`}>
-            <div className={`${styles.list}`}>
-              <li>Home</li>
-              <li>Projects</li>
-              <li>Skills</li>
-              <li>CV</li>
-              <li>Biography</li>
-              <li>About</li>
-              <li>Contacts</li>
-            </div>
-          </div>
+      <Card>
+        <div className={`${styles.navbar} ${showMobile && styles.showMobile}`}>
+          <a href="#">
+            <li>Home</li>
+          </a>
+          <a href="#">
+            <li>Projects</li>
+          </a>
+          <a href="#">
+            <li>Skills</li>
+          </a>
+          <a href="#">
+            <li>CV</li>
+          </a>
+          <a href="#">
+            <li>Biography</li>
+          </a>
+          <a href="#">
+            <li>About</li>
+          </a>
+          <a href="#">
+            {" "}
+            <li>Contacts</li>
+          </a>
         </div>
-      </div>
+        <div className={`${styles.hamburger}`} onClick={toggle}>
+          <i
+            className={!showMobile ? "fa-solid fa-bars" : "fa-solid fa-times"}
+          />
+        </div>
+      </Card>
     </>
   );
 };

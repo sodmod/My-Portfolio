@@ -20,3 +20,8 @@ code {
 .root {
   background-color: aquamarine;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

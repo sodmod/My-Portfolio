@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import Card from "../Cards/Card";
+import Button from "../UI/Buttons/Button";
+import Card from "../UI/Cards/Card";
 
 import styles from "./Navbars.module.css";
 
@@ -14,28 +15,26 @@ const Navbar = () => {
     <>
       <Card>
         <div className={`${styles.navbar} ${showMobile && styles.showMobile}`}>
-          <a href="#">
-            <li>Home</li>
-          </a>
-          <a href="#">
-            <li>Projects</li>
-          </a>
-          <a href="#">
-            <li>Skills</li>
-          </a>
-          <a href="#">
-            <li>CV</li>
-          </a>
-          <a href="#">
-            <li>Biography</li>
-          </a>
-          <a href="#">
-            <li>About</li>
-          </a>
-          <a href="#">
-            {" "}
-            <li>Contacts</li>
-          </a>
+          <li>
+            <a href="#s">Home</a>
+          </li>
+          <li>
+            <a href="#s">Services</a>
+          </li>
+          <li>
+            <a href="#s">Home</a>
+          </li>
+          <li>
+            <a href="#s">Portfolio</a>
+          </li>
+          <li>
+            <a href="#s">CV</a>
+          </li>
+          <li>
+            <a href="#s">
+              <Button>Contact</Button>
+            </a>
+          </li>
         </div>
         <div className={`${styles.hamburger}`} onClick={toggle}>
           <i

@@ -1,0 +1,44 @@
+h1 {
+  font-size: 3rem;
+}
+p {
+  font-size: 1.5rem;
+}
+
+.home {
+  width: 100vw;
+  display: flex;
+  padding: 1rem 2rem;
+}
+.left {
+  width: 50vw;
+}
+
+.right {
+  width: 50vw;
+}
+.right img {
+  width: 50%;
+}
+
+.my_name {
+  color: pink;
+  text-align: center;
+}
+
+@keyframes identifier {
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    width: 100vw;
+    display: block;
+  }
+  .left {
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+  .right {
+    width: 100vw;
+  }
+}

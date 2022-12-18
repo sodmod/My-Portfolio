@@ -1,6 +1,6 @@
 import React from "react";
 
-import Cards from "../Cards/Card";
+import Cards from "../UI/Cards/Card";
 
 import styles from "./Contents.module.css";
 

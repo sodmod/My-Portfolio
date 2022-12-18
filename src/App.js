@@ -2,7 +2,6 @@ import React from "react";
 
 import styles from "./App.module.css";
 import Navbar from "./components/Navbars/Navbars";
-import Body from "./components/Body/Body";
 import Home from "./components/Body/Home/Home";
 
 function App() {

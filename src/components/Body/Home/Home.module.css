@@ -1,3 +1,9 @@
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -8,25 +14,56 @@ p {
 .home {
   width: 100vw;
   display: flex;
+  position: relative;
   padding: 1rem 2rem;
 }
 .left {
   width: 50vw;
+  position: inherit;
+  animation-name: left;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
 }
 
 .right {
   width: 50vw;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  animation-name: right;
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
 }
 .right img {
   width: 50%;
+  justify-content: center;
 }
 
 .my_name {
   color: pink;
-  text-align: center;
 }
 
-@keyframes identifier {
+@keyframes left {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes right {
+  from {
+    right: -1000px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@media screen and (min-width: 439px) {
+  .my_name {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -37,8 +74,15 @@ p {
   .left {
     width: 100vw;
     margin-bottom: 50px;
+    /* animation-name: left;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; */
   }
   .right {
     width: 100vw;
+
+    /* animation-name: right;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; */
   }
 }

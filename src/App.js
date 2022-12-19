@@ -4,6 +4,7 @@ import styles from "./App.module.css";
 import Navbar from "./components/Navbars/Navbars";
 import Home from "./components/Body/Home/Home";
 import Services from "./components/Body/Services/Services";
+import Experience from "./components/Body/Experiences/Experience";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Home />
         <Services />
+        <Experience />
       </div>
     </>
   );

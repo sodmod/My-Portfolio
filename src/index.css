@@ -7,9 +7,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #3b4f49c9;
-  padding: 0;
-  overflow-x: hidden;
-  width: 100vw;
 }
 /* ::-webkit-scrollbar {
   display: none;

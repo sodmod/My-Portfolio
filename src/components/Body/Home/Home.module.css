@@ -16,25 +16,26 @@ p {
   display: flex;
   position: relative;
   padding: 1rem 2rem;
+  margin-bottom: 1rem;
 }
-.left {
+.home_left {
   width: 50vw;
   position: inherit;
-  animation-name: left;
+  animation-name: home_left;
   animation-duration: 1.2s;
   animation-fill-mode: forwards;
 }
 
-.right {
+.home_right {
   width: 50vw;
   position: inherit;
   display: flex;
   justify-content: center;
-  animation-name: right;
-  animation-duration: 1.2s;
+  animation-name: home_right;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
-.right img {
+.home_right img {
   width: 50%;
   justify-content: center;
 }
@@ -43,7 +44,7 @@ p {
   color: pink;
 }
 
-@keyframes left {
+@keyframes home_left {
   from {
     left: -1000px;
   }
@@ -51,7 +52,7 @@ p {
     left: 0px;
   }
 }
-@keyframes right {
+@keyframes home_right {
   from {
     right: -1000px;
   }
@@ -69,20 +70,13 @@ p {
 @media screen and (max-width: 1200px) {
   .home {
     width: 100vw;
-    display: block;
+    flex-direction: column;
   }
-  .left {
+  .home_left {
     width: 100vw;
     margin-bottom: 50px;
-    /* animation-name: left;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards; */
   }
-  .right {
+  .home_right {
     width: 100vw;
-
-    /* animation-name: right;
-    animation-duration: 1.2s;
-    animation-fill-mode: forwards; */
   }
 }

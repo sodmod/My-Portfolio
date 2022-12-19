@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <section className={styles.home}>
-        <div className={styles.left}>
+        <div className={styles.home_left}>
           <div className={styles.my_name}>
             <h1>Hi i am badmus</h1>
           </div>
@@ -22,7 +22,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className={styles.right}>
+        <div className={styles.home_right}>
           <img src={Image} alt="" />
         </div>
       </section>

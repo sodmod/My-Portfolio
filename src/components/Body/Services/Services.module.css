@@ -1,0 +1,36 @@
+.services {
+  width: 100vw;
+  display: flex;
+}
+* {
+  padding: 0;
+}
+
+.services_left {
+  width: 50vw;
+  background-color: seashell;
+}
+
+.services_1 {
+}
+
+.services_right {
+  /* padding-right: 50px; */
+  width: 50vw;
+  background-color: lavender;
+  display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+  .services {
+    width: 100vw;
+    flex-direction: column;
+  }
+  .services_left {
+    width: 100vw;
+    margin-bottom: 50px;
+  }
+  .services_right {
+    width: 100vw;
+  }
+}

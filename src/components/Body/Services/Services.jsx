@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Services.module.css";
+import Card from "../../UI/Cards/Card";
 const Services = () => {
   return (
     <>
@@ -27,48 +28,42 @@ const Services = () => {
           </p>
         </div>
         <div className={styles.services_right}>
-          <div className={styles.services_1}>
+          <Card className={styles.services_1}>
+            <Card>
+              <img src="" alt="" />
+            </Card>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quo alias aspernatur itaque. Exercitationem, iste unde reiciendis
+              laboriosam ea ut quod voluptate incidunt eum soluta beatae dolores
+              quia earum eligendi repudiandae harum voluptatem repellat
+              accusamus cum molestiae consectetur obcaecati esse itaque quaerat!
+            </div>
+          </Card>
+
+          <Card className={styles.services_2}>
+            <Card>
+              <img src="" alt="" />
+            </Card>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
             quo alias aspernatur itaque. Exercitationem, iste unde reiciendis
             laboriosam ea ut quod voluptate incidunt eum soluta beatae dolores
             quia earum eligendi repudiandae harum voluptatem repellat accusamus
-            cum molestiae consectetur obcaecati esse itaque quaerat! Magni
-            tempore quidem facilis incidunt, quod eaque voluptatibus. Ut
-            mollitia at recusandae quod? Maxime, nemo reprehenderit voluptatibus
-            magni natus obcaecati repudiandae eligendi provident amet ipsam. Ea
-            officia odit et facilis delectus unde sapiente possimus laborum
-            voluptate. Voluptatum eius itaque ab odit cumque! Consectetur vel
-            quae delectus quis eos, inventore dolores suscipit perferendis
-            exercitationem aperiam, eius iusto asperiores minus!
-          </div>
-          <div className={styles.services_2}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            quo alias aspernatur itaque. Exercitationem, iste unde reiciendis
-            laboriosam ea ut quod voluptate incidunt eum soluta beatae dolores
-            quia earum eligendi repudiandae harum voluptatem repellat accusamus
-            cum molestiae consectetur obcaecati esse itaque quaerat! Magni
-            tempore quidem facilis incidunt, quod eaque voluptatibus. Ut
-            mollitia at recusandae quod? Maxime, nemo reprehenderit voluptatibus
-            magni natus obcaecati repudiandae eligendi provident amet ipsam. Ea
-            officia odit et facilis delectus unde sapiente possimus laborum
-            voluptate. Voluptatum eius itaque ab odit cumque! Consectetur vel
-            quae delectus quis eos, inventore dolores suscipit perferendis
-            exercitationem aperiam, eius iusto asperiores minus!
-          </div>
-          <div className={styles.services_3}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            quo alias aspernatur itaque. Exercitationem, iste unde reiciendis
-            laboriosam ea ut quod voluptate incidunt eum soluta beatae dolores
-            quia earum eligendi repudiandae harum voluptatem repellat accusamus
-            cum molestiae consectetur obcaecati esse itaque quaerat! Magni
-            tempore quidem facilis incidunt, quod eaque voluptatibus. Ut
-            mollitia at recusandae quod? Maxime, nemo reprehenderit voluptatibus
-            magni natus obcaecati repudiandae eligendi provident amet ipsam. Ea
-            officia odit et facilis delectus unde sapiente possimus laborum
-            voluptate. Voluptatum eius itaque ab odit cumque! Consectetur vel
-            quae delectus quis eos, inventore dolores suscipit perferendis
-            exercitationem aperiam, eius iusto asperiores minus!
-          </div>
+            cum molestiae consectetur obcaecati esse itaque quaerat!
+          </Card>
+
+          <Card className={styles.services_3}>
+            <Card>
+              <img src="" alt="" />
+            </Card>
+            <div>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+              quo alias aspernatur itaque. Exercitationem, iste unde reiciendis
+              laboriosam ea ut quod voluptate incidunt eum soluta beatae dolores
+              quia earum eligendi repudiandae harum voluptatem repellat
+              accusamus cum molestiae consectetur obcaecati esse itaque quaerat!
+            </div>
+          </Card>
         </div>
       </section>
     </>

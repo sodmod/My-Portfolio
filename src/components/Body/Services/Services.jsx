@@ -4,7 +4,7 @@ import Card from "../../UI/Cards/Card";
 const Services = () => {
   return (
     <>
-      <section className={styles.services}>
+      <section className={styles.services} id="services">
         <div className={styles.services_left}>
           <div>
             <h1>My Services</h1>

@@ -5,7 +5,7 @@ import Image from "../../Images/my image.jpeg";
 const Home = () => {
   return (
     <>
-      <section className={styles.home}>
+      <section className={styles.home} id="home">
         <div className={styles.home_left}>
           <div className={styles.my_name}>
             <h1>Hi i am badmus</h1>

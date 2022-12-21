@@ -1,23 +1,49 @@
 .experience {
   width: 100vw;
-  background-color: pink;
-  height: 400px;
+  margin-top: 10px;
 }
 
 .exp {
   display: flex;
-  width: 90vw;
+  width: inherit;
   position: relative;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(16, 23, 54, 0.567);
   margin: auto;
-  gap: 3rem;
+  gap: 5rem;
   height: inherit;
+  padding-top: 10px;
+}
+
+.round {
+  width: 20vw;
+  border-radius: 50%;
+  border: 3px dotted rgb(23, 23, 143);
+  height: 20vw;
+  text-align: center;
+}
+
+.round .round_info {
+  color: white;
+  background-color: rgba(233, 233, 233, 0.476);
+  width: inherit;
+  height: inherit;
+}
+
+.round .round_info span {
+  color: rgb(190, 52, 52);
+  background-color: rgba(92, 21, 208, 0.476);
 }
 
 @media screen and (max-width: 650px) {
   .exp {
     flex-direction: column;
     align-items: center;
+  }
+
+  .round {
+    width: 30vw;
+    height: 30vh;
+    margin: auto;
   }
 }

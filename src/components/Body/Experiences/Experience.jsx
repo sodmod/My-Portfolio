@@ -7,13 +7,19 @@ const Experience = () => {
       <section className={styles.experience} id="experience">
         <div className={styles.exp}>
           <div className={styles.round} id={styles.round1}>
-            How
+            <div className={styles.round_info}>
+              <span>How are you adfafrfoqerfaj</span>
+            </div>
           </div>
           <div className={styles.round} id={styles.round2}>
-            are
+            <div className={styles.round_info}>
+              <span>How are you adfafrfoqerfaj</span>
+            </div>
           </div>
           <div className={styles.round} id={styles.round3}>
-            you
+            <div className={styles.round_info}>
+              <span>How are you adfafrfoqerfaj</span>
+            </div>
           </div>
         </div>
       </section>

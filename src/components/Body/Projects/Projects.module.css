@@ -1,0 +1,21 @@
+.projects {
+  max-width: inherit;
+  min-height: 40vh;
+  position: relative;
+  margin-top: 2.5%;
+}
+
+.projects__ {
+  margin: auto;
+  width: 90%;
+  position: inherit;
+  display: flex;
+}
+
+.project_images {
+  max-width: 100%;
+}
+
+.project_images img {
+  max-width: 100%;
+}

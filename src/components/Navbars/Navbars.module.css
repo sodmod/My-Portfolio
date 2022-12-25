@@ -50,17 +50,17 @@ button {
     display: none;
   }
   .showMobile {
-    background-color: rgba(4, 4, 4, 0.664);
+    background-color: rgba(9, 8, 8, 0.664);
     color: rgb(86, 121, 119);
     border-radius: 20px;
-    box-shadow: 0 1px 8px rgb(0, 0, 0);
+    box-shadow: 0 1px 8px rgb(13, 12, 12);
     text-align: center;
     margin: 5px 0px 2px 4px;
     flex-direction: column;
     padding-top: 3rem;
     width: 50vw;
     display: flex;
-    position: fixed;
+    position: absolute;
     align-items: center;
     justify-content: flex-start;
     gap: 3rem;
@@ -72,7 +72,6 @@ button {
 
   .removeMobile {
     background-color: rgba(13, 13, 200, 0.2);
-
     text-align: center;
     flex-direction: column;
     padding-top: 3rem;

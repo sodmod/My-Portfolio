@@ -12,10 +12,11 @@
 
 .circle {
   border: 1px solid yellow;
-  width: 40%;
+  width: 10%;
   border-radius: 50%;
   line-height: 0;
   position: relative;
+  margin: 1% 0;
 }
 
 .circle::after {

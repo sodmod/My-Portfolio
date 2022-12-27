@@ -6,6 +6,7 @@ import Home from "./components/Body/Home/Home";
 import Services from "./components/Body/Services/Services";
 import Experience from "./components/Body/Experiences/Experience";
 import Projects from "./components/Body/Projects/Projects";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Services />
         <Experience />
         <Projects />
+        <Footer />
       </div>
     </>
   );

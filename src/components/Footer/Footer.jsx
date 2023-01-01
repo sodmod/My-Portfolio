@@ -1,28 +1,26 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
+// const strig = "fa-brands fa-facebook";
+
 const Footer = (props) => {
   return (
     <>
       <section className={styles.footer}>
-        <div className={styles.footer__}>
-          <div className={styles.flex}>
-            <div className={styles.foot}>
-              <h1>My Porfolio</h1>
-            </div>
-            <div className={styles.footer_icons}>
-              <div className={styles.icons}>
-                <i className="fa-brands fa-facebook"></i>
-              </div>
-            </div>
+        <div className={styles.footerflex}>
+          <div className={styles.footer_flex1}>
+            <div>howe ae</div>
           </div>
-          <div className={styles.personal_info}>
-            <div className={styles.contacts}>
-              <h2>Contacts</h2>
-            </div>
-            <div className={styles.contacts_info}>
-              <div className={styles.contacts_info__}>
-                <p>how are you too</p>
+          <div className={styles.footer_flex2}>
+            <div className={styles.abouts}>
+              <div className={styles.contents}>
+                <div className={styles.ab}>
+                  <h2>how is you</h2>
+                  <li>how</li>
+                  <li>how</li>
+                  <li>how</li>
+                  <li>how</li>
+                </div>
               </div>
             </div>
           </div>

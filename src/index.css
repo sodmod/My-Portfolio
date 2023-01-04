@@ -6,7 +6,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #3b4f49c9;
+  background-image: linear-gradient(
+    to right,
+    rgba(29, 115, 126, 0.882),
+    rgba(125, 177, 41, 0.792)
+  );
 }
 /* ::-webkit-scrollbar {
   display: none;

@@ -12,7 +12,7 @@
 
 .circle {
   border: 1px solid yellow;
-  width: 10%;
+  width: 15%;
   border-radius: 50%;
   line-height: 0;
   position: relative;
@@ -30,5 +30,4 @@
   bottom: 50%;
   width: 100%;
   text-align: center;
-  /* height: auto; */
 }

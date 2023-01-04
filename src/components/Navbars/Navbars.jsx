@@ -1,20 +1,22 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 import Button from "../UI/Buttons/Button";
 import Card from "../UI/Cards/Card";
 
 import styles from "./Navbars.module.css";
 
 const Navbar = () => {
-  const [showMobile, setShowMobile] = useState(null);
+  // const [showMobile, setShowMobile] = useState(null);
 
-  const toggle = () => {
-    setShowMobile((preState) => !preState);
-  };
+  // const toggle = () => {
+  //   setShowMobile((preState) => !preState);
+  // };
 
   return (
     <>
       <Card>
-        <div className={`${styles.navbar} ${showMobile && styles.showMobile}`}>
+        {/* <div className={`${styles.navbar} ${showMobile && styles.showMobile}`}> */}
+        <div className={styles.navbar}>
           <li>
             <a href="#s">Home</a>
           </li>
@@ -36,11 +38,11 @@ const Navbar = () => {
             </a>
           </li>
         </div>
-        <div className={`${styles.hamburger}`} onClick={toggle}>
+        {/* <div className={`${styles.hamburger}`} onClick={toggle}>
           <i
             className={!showMobile ? "fa-solid fa-bars" : "fa-solid fa-times"}
           />
-        </div>
+        </div> */}
       </Card>
     </>
   );

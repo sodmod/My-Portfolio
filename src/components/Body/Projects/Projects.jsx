@@ -7,9 +7,14 @@ const Projects = (props) => {
     <>
       <section className={styles.projects} id="projects">
         <div className={styles.projects__}>
-          <div className={styles.project_images}>
-            <img src={Image1} alt="" />
-          </div>
+          {props.images.map((image) => (
+            <div key={image.id} className={styles.project_images}>
+              <img src={image.image} alt="" />
+            </div>
+          ))}
+          {/* <div className={styles.project_images}>
+            <img src={props.images} alt="" />
+          </div> */}
           <div className={styles.project_images}>
             <img src={Image1} alt="" />
           </div>

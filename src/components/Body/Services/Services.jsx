@@ -18,6 +18,7 @@ const Services = (props) => {
             </p>
           </div>
         </div>
+        {/* <div className={styles.positions}> */}
         <div className={styles.services_right}>
           {props.services.map((service) => (
             <Card key={service.id} className={styles.services_1}>
@@ -28,6 +29,7 @@ const Services = (props) => {
             </Card>
           ))}
         </div>
+        {/* </div> */}
       </section>
     </>
   );

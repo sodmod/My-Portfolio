@@ -4,9 +4,11 @@ import styles from "./App.module.css";
 import Navbar from "./components/Navbars/Navbars";
 import Home from "./components/Body/Home/Home";
 import Services from "./components/Body/Services/Services";
-import Experience from "./components/Body/Experiences/Experience";
+// import Experience from "./components/Body/Experiences/Experience";
 import Projects from "./components/Body/Projects/Projects";
 import Footer from "./components/Footer/Footer";
+import AddExpense from "./components/Images/AddExpense.png";
+import ToDo_List from "./components/Images/ToDo_List.png";
 
 import {
   Name,
@@ -35,6 +37,17 @@ const serviceArrays = [
   },
 ];
 
+const projects = [
+  {
+    id: "1",
+    image: AddExpense,
+  },
+  {
+    id: "2",
+    image: ToDo_List,
+  },
+];
+
 function App() {
   return (
     <>
@@ -47,8 +60,8 @@ function App() {
           service2={service2}
           service3={service3}
         />
-        <Experience />
-        <Projects />
+        {/* <Experience /> */}
+        <Projects images={projects} />
         <Footer />
       </div>
     </>

@@ -5,12 +5,12 @@ const Experience = (props) => {
   return (
     <>
       <section className={styles.experience} id="experience">
-        {/* <div> */}
         <div className={styles.exp}>
           <div className={styles.circle}>
             <div className={styles.circle_text}>
               <div>
-                <span>8+</span>
+                <span>{props.years} 8</span>
+                <div>shoe</div>
               </div>
             </div>
           </div>

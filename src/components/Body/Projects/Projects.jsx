@@ -12,15 +12,6 @@ const Projects = (props) => {
               <img src={image.image} alt="" />
             </div>
           ))}
-          {/* <div className={styles.project_images}>
-            <img src={props.images} alt="" />
-          </div> */}
-          <div className={styles.project_images}>
-            <img src={Image1} alt="" />
-          </div>
-          <div className={styles.project_images}>
-            <img src={Image1} alt="" />
-          </div>
         </div>
       </section>
     </>

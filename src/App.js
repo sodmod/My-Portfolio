@@ -60,7 +60,6 @@ function App() {
           service2={service2}
           service3={service3}
         />
-        {/* <Experience /> */}
         <Projects images={projects} />
         <Footer />
       </div>

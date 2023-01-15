@@ -5,8 +5,8 @@ import Home from "./components/Body/Home/Home";
 import Services from "./components/Body/Services/Services";
 import Projects from "./components/Body/Projects/Projects";
 import Footer from "./components/Footer/Footer";
-import AddExpense from "./components/Images/AddExpense.png";
-import ToDo_List from "./components/Images/ToDo_List.png";
+import AddExpense from "./Files/Images/AddExpense.png";
+import ToDo_List from "./Files/Images/ToDo_List.png";
 import {
   Name,
   job_title,

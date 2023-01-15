@@ -1,13 +1,13 @@
 import React, { useEffect } from "react";
 import styles from "./Home.module.css";
-import Image from "../../Images/my image.jpeg";
+import Image from "../../../Files/Images/my image.jpeg";
 import { AOS } from "../../../contexts/constants";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 const Home = (props) => {
   useEffect(() => {
-    Aos.init({ duration: 3000, delay: 2000 });
+    Aos.init({ duration: 3000, delay: 500 });
   }, []);
   return (
     <AOS.Consumer>

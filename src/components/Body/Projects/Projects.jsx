@@ -3,8 +3,10 @@ import styles from "./Projects.module.css";
 import { AOS } from "../../../contexts/constants";
 import Aos from "aos";
 import Button from "../../UI/Buttons/Button";
-import CV from "../../../Files/My Resume.pdf";
 import "aos/dist/aos.css";
+
+const CV =
+  "https://docs.google.com/document/d/11WHW0L4xdUnWA9c4WCVWUIToXVpK5LXID7evyKOaOVk/edit?usp=sharing";
 
 const Projects = (props) => {
   useEffect(() => {

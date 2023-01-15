@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import styles from "./Projects.module.css";
 import { AOS } from "../../../contexts/constants";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import Button from "../../UI/Buttons/Button";
 import CV from "../../../Files/My Resume.pdf";
+import "aos/dist/aos.css";
 
 const Projects = (props) => {
   useEffect(() => {

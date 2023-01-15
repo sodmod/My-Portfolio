@@ -16,12 +16,7 @@ p {
   display: flex;
   position: relative;
   padding: 2%;
-  /* margin-bottom: 1rem; */
-  /* background-image: linear-gradient(
-    to left,
-    rgb(111, 114, 177),
-    rgba(84, 116, 71, 0.83)
-  ); */
+  min-height: 100vh;
 }
 .home_left {
   width: 50vw;
@@ -29,6 +24,14 @@ p {
   animation-name: home_left;
   animation-duration: 3s;
   animation-fill-mode: forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.express {
+  width: 50%;
+  position: relative;
 }
 
 .home_right {
@@ -42,14 +45,13 @@ p {
 }
 .home_right img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 50%;
   border-radius: 10%;
 }
 
 .my_name {
-  color: pink;
+  color: rgb(24, 113, 164);
 }
 
 @keyframes home_left {
@@ -89,5 +91,14 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  .express {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .express {
+    width: 100%;
   }
 }

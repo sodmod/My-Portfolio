@@ -1,11 +1,5 @@
 .footer {
   max-width: 100%;
-  /* background-color: rgba(147, 106, 197, 0.57); */
-  /* background-image: linear-gradient(
-    to right,
-    rgba(29, 115, 126, 0.882),
-    rgba(125, 177, 41, 0.792)
-  ); */
   min-height: 10vh;
   padding: 1%;
   position: relative;
@@ -15,8 +9,6 @@
 
 .footerflex {
   display: flex;
-  /* background-color: rgba(147, 106, 197, 0.756); */
-  /* box-shadow: 0 10px 0.5rem rgb(147, 106, 197); */
   min-height: inherit;
   min-width: inherit;
   margin-bottom: 0.5%;
@@ -40,7 +32,6 @@
 }
 
 .contents {
-  /* background-color: rgba(58, 120, 78, 0.72); */
   background-image: linear-gradient(
     to right,
     rgba(45, 148, 159, 0.959),

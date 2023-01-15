@@ -3,10 +3,16 @@
   margin-top: 2.5%;
   padding: 1%;
   position: relative;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .projects__ {
   position: relative;
+}
+
+.recent_projects {
+  padding: 3%;
 }
 
 .project_images {
@@ -27,7 +33,6 @@
 
 .images {
   position: relative;
-  /* font-size: 5rem; */
 }
 
 .images::before {
@@ -35,10 +40,6 @@
   transform-origin: bottom right;
 }
 
-/* h1:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-} */
 .images:hover::before {
   transform: scaleX(1);
   transform-origin: bottom left;
@@ -56,11 +57,13 @@
   transition: transform 0.3s ease;
 }
 
-/* @media (orientation: landscape) {
-  body {
-    grid-auto-flow: column;
-  }
-} */
+.button {
+  width: auto;
+}
+
+.cv {
+  margin-top: 3.7%;
+}
 
 @media screen and (max-width: 700px) {
   .projects__ {

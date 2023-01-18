@@ -58,10 +58,12 @@ const projects = [
   {
     id: "1",
     image: AddExpense,
+    link: "https://sodiq-expenses.netlify.app/",
   },
   {
     id: "2",
     image: ToDo_List,
+    link: "https://badmus-todo-list.netlify.app/",
   },
 ];
 

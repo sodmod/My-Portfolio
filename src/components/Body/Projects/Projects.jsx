@@ -23,13 +23,8 @@ const Projects = (props) => {
               </div>
               <div data-aos={aos.fade_up} className={styles.project_images}>
                 {props.images.map((image) => (
-                  <a href={image.link}>
-                    <img
-                      key={image.id}
-                      src={image.image}
-                      alt=""
-                      className={styles.images}
-                    />
+                  <a href={image.link} key={image.id}>
+                    <img src={image.image} alt="" className={styles.images} />
                   </a>
                 ))}
               </div>

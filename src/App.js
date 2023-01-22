@@ -7,6 +7,7 @@ import Projects from "./components/Body/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 import AddExpense from "./Files/Images/AddExpense.png";
 import ToDo_List from "./Files/Images/ToDo_List.png";
+import Food_App from "./Files/Images/Food_app.png";
 import {
   Name,
   job_title,
@@ -64,6 +65,11 @@ const projects = [
     id: "2",
     image: ToDo_List,
     link: "https://badmus-todo-list.netlify.app/",
+  },
+  {
+    id: "3",
+    image: Food_App,
+    link: "https://badmus-food-order-app.netlify.app/",
   },
 ];
 

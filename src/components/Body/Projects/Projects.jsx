@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { AOS } from "../../../contexts/constants";
+import { person } from "../../../Constants/constants";
 import Button from "../../UI/Buttons/Button";
 import Aos from "aos";
 
 import "aos/dist/aos.css";
 import styles from "./Projects.module.css";
-
-const CV =
-  "https://docs.google.com/document/d/11WHW0L4xdUnWA9c4WCVWUIToXVpK5LXID7evyKOaOVk/edit?usp=sharing";
 
 const Projects = (props) => {
   useEffect(() => {
@@ -30,7 +28,7 @@ const Projects = (props) => {
                 ))}
               </div>
               <div data-aos={aos.flip_up} className={styles.cv}>
-                <a href={CV} download>
+                <a href={person.info.CV} download>
                   <Button className={styles.button}>Download CV</Button>
                 </a>
               </div>

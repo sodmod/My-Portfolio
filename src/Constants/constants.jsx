@@ -8,6 +8,8 @@ export const person = {
     job_title: "Full stack Developer",
     job_entails:
       "FullStack Developer with high level of experience in web and development, building backend logic and creating API.",
+    CV:
+      "https://docs.google.com/document/d/11WHW0L4xdUnWA9c4WCVWUIToXVpK5LXID7evyKOaOVk/edit?usp=sharing",
   },
   services: {
     service1:

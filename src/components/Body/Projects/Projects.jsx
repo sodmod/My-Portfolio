@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import { AOS } from "../../../contexts/constants";
 import { person } from "../../../Constants/constants";
 import Button from "../../UI/Buttons/Button";

@@ -1,6 +1,7 @@
 import AddExpense from "../Files/Images/AddExpense.png";
 import ToDo_List from "../Files/Images/ToDo_List.png";
 import Food_App from "../Files/Images/Food_app.png";
+import PaystackImplementation from "../Files/Images/paystackImplementation.jpg";
 
 export const person = {
   info: {
@@ -29,11 +30,13 @@ export const person = {
     AddExpense,
     ToDo_List,
     Food_App,
+    PaystackImplementation,
   },
   links: {
     AddExpense: "https://sodiq-expenses.netlify.app/",
     ToDo_List: "https://badmus-todo-list.netlify.app/",
     Food_App: "https://badmus-food-order-app.netlify.app/",
+    paystackImplementation: "https://badmus-paystack-testing.netlify.app/",
   },
 };
 
@@ -84,7 +87,12 @@ export const projects = [
   {
     id: "3",
     image: person.images.Food_App,
-    link: person.images.Food_App,
+    link: person.links.Food_App,
+  },
+  {
+    id: "4",
+    image: person.images.PaystackImplementation,
+    link: person.links.paystackImplementation,
   },
 ];
 

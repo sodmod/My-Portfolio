@@ -1,0 +1,67 @@
+.home {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  height: 80vh;
+}
+
+.me {
+  width: 60%;
+  max-width: 60%;
+  height: inherit;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.me__ {
+  text-align: start;
+}
+
+.me__ #hello {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.me__ #myName {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.me__ #specialize {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+}
+
+#hello #emoji {
+  color: yellow;
+}
+
+#specialize #expert {
+  color: #386583;
+}
+
+.me__ #summary {
+  padding-top: 2rem;
+  width: 50%;
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.image {
+  width: 40%;
+  max-width: 40%;
+  position: relative;
+  height: inherit;
+}
+
+.image img {
+  position: absolute;
+  height: 600px;
+  left: 230px;
+  top: 270px;
+  background-color: white;
+}

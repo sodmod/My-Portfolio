@@ -2,6 +2,7 @@ import AddExpense from "../Files/Images/AddExpense.png";
 import ToDo_List from "../Files/Images/ToDo_List.png";
 import Food_App from "../Files/Images/Food_app.png";
 import PaystackImplementation from "../Files/Images/paystackImplementation.jpg";
+import Grammercetamol from "../Files/Images/Grammercetamol.jpg";
 
 export const person = {
   info: {
@@ -31,12 +32,14 @@ export const person = {
     ToDo_List,
     Food_App,
     PaystackImplementation,
+    Grammercetamol,
   },
   links: {
     AddExpense: "https://sodiq-expenses.netlify.app/",
     ToDo_List: "https://badmus-todo-list.netlify.app/",
     Food_App: "https://badmus-food-order-app.netlify.app/",
     paystackImplementation: "https://badmus-paystack-testing.netlify.app/",
+    Grammercetamol: "https://grammercetamol.netlify.app/",
   },
 };
 
@@ -93,6 +96,11 @@ export const projects = [
     id: "4",
     image: person.images.PaystackImplementation,
     link: person.links.paystackImplementation,
+  },
+  {
+    id: "5",
+    image: person.images.Grammercetamol,
+    link: person.links.Grammercetamol,
   },
 ];
 
